@@ -19,6 +19,7 @@
 - [level0](bandit/level0.md)
 - [level1](bandit/level1.md)
 - [level2](bandit/level2.md)
+- [level3](bandit/level3.md)
 
 ### Linux
 
