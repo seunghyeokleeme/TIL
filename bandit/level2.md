@@ -1,4 +1,4 @@
-# bandit level 0
+# bandit level 2
 
 ## Quiz
 
