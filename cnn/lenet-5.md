@@ -76,8 +76,7 @@ C3은 “부분 연결” 구조를 취함으로써 **파라미터 수를 절약
 가장 간단한 출력 손실 함수는 **최대 우도 추정(maximum likelihood estimation)** 기준이며, 본 논문에서는 **평균 제곱 오차(minimum mean squared error, MSE)** 와 동일합니다. 주어진 학습 샘플 집합 $\{(x^{(p)},\,t^{(p)})\}$에 대한 손실 함수는 다음과 같습니다:
 
 $$
-J \;=\; \frac{1}{2}\sum_{p}\sum_{i}\bigl(y_i^{(p)} - t_i^{(p)}\bigr)^2
-\tag{8}
+{J = \frac{1}{2}\sum_{p}\sum_{i}\bigl(y_i^{(p)} - t_i^{(p)}\bigr)^2}
 $$
 
 * 여기서 $y_i^{(p)}$는 패턴 $p$의 **정답 클래스**에 해당하는 $i$번째 RBF 유닛의 출력입니다.
@@ -96,15 +95,12 @@ $$
    * 이를 해결하기 위해 **사후 확률 최대화(maximum a posteriori, MAP)** 기준을 도입할 수 있으며, 이는 HMM 훈련에 쓰이는 **최대 상호정보(maximum mutual information)** 기준과 유사합니다.
    * MAP 기준에 따른 손실 함수는 다음과 같이 쓸 수 있습니다:
 
-     $$
-     L \;=\; -\ln P(\text{정답 클래스}\mid x)
-     \;\propto\;
-     E_{\text{correct}} \;+\;\ln\sum_{c}\exp\bigl(-E_{c}\bigr)
-     \tag{9}
-     $$
+$$
+  {L = -ln P(\text{정답 클래스}\mid x)\propto E_{\text{correct}} +\ln\sum_{c}\exp\bigl(-E_{c}\bigr)}
+$$
 
-     여기서 $E_c$는 클래스 $c$에 대응하는 RBF 유닛의 패널티(출력)입니다.
-   * 두 번째 항($\ln\sum_{c}\exp(-E_c)$)이 **경쟁 항**으로 작동하며, 이미 큰 패널티가 지나치게 커지는 것을 막아 줍니다.
+   여기서 $E_c$는 클래스 $c$에 대응하는 RBF 유닛의 패널티(출력)입니다.
+   * 두 번째 항( $\ln\sum_{c}\exp(-E_c)$ )이 **경쟁 항**으로 작동하며, 이미 큰 패널티가 지나치게 커지는 것을 막아 줍니다.
    * 이 기준을 쓰면 RBF 중심 벡터가 자연스럽게 서로 멀어져 붕괴 현상이 방지됩니다.
 
 3. **‘쓰레기(rubbish)’ 클래스 포함**
