@@ -31,6 +31,7 @@
 - [perceptron and MLP](ml/perceptron-and-mlp.md)
 - [Linear regression and Loss function](ml/basic.md)
 - [Gradient descent](ml/gradient-descent.md)
+- [Stochastic gradient descent (SGD)](ml/stochatic-gradient-descent.md)
 
 ### Tool
 
