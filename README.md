@@ -7,6 +7,7 @@
 ### Categories
 
 * [Bandit](#bandit)
+* [CNN](#cnn)
 * [Linux](#linux)
 * [ML](#ml)
 * [Tool](#tool)
@@ -21,6 +22,10 @@
 - [level2](bandit/level2.md)
 - [level3](bandit/level3.md)
 - [level4](bandit/level4.md)
+
+### CNN
+
+- [LeNet-5](cnn/lenet-5.md)
 
 ### Linux
 
