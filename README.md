@@ -26,6 +26,7 @@
 ### CNN
 
 - [LeNet-5](cnn/lenet-5.md)
+- [AlexNet](cnn/alexnet.md)
 
 ### Linux
 
@@ -38,6 +39,7 @@
 - [Gradient descent](ml/gradient-descent.md)
 - [Stochastic gradient descent (SGD)](ml/stochatic-gradient-descent.md)
 - [Mini-Batch gradient descent](ml/mini-batch-gradient-descent.md)
+- [Momentum](ml/momentum.md)
 
 ### Tool
 
