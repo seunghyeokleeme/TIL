@@ -40,6 +40,7 @@
 - [Stochastic gradient descent (SGD)](ml/stochatic-gradient-descent.md)
 - [Mini-Batch gradient descent](ml/mini-batch-gradient-descent.md)
 - [Momentum](ml/momentum.md)
+- [RMSProp](ml/rmsprop.md)
 
 ### Tool
 
